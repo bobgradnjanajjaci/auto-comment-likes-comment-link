@@ -1,1 +1,2 @@
-web: gunicorn app:app --workers 1 --threads 4 --timeout 180
+web: gunicorn tiktok_auto_lajkovi_comment_link_app:app
+
